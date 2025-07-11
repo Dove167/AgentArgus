@@ -1,0 +1,67 @@
+{
+    "functions": [
+      {
+        "name": "Arrow Function",
+        "code": "const add = (a, b) => a + b;",
+        "description": "A simple arrow function to add two numbers.",
+        "tags": ["ES6", "function", "arrow"],
+        "difficulty": "Easy",
+        "useCase": "When you want to define a function concisely."
+      },
+      {
+        "name": "Anonymous Function",
+        "code": "setTimeout(function() { console.log('Hello!'); }, 1000);",
+        "description": "An anonymous function used with setTimeout.",
+        "tags": ["function", "timeout", "anonymous"],
+        "difficulty": "Medium",
+        "useCase": "Used when you need a function for a one-time operation."
+      }
+    ],
+    "loops": [
+      {
+        "name": "For Loop",
+        "code": "for (let i = 0; i < 10; i++) { console.log(i); }",
+        "description": "A basic for loop to iterate from 0 to 9.",
+        "tags": ["loop", "iteration", "for"],
+        "difficulty": "Easy",
+        "useCase": "Used when you know the number of iterations beforehand."
+      },
+      {
+        "name": "While Loop",
+        "code": "let i = 0; while (i < 10) { console.log(i); i++; }",
+        "description": "A basic while loop to iterate from 0 to 9.",
+        "tags": ["loop", "iteration", "while"],
+        "difficulty": "Medium",
+        "useCase": "Used when you don't know the number of iterations upfront."
+      }
+    ],
+    "dataStructures": [
+      {
+        "name": "Array",
+        "code": "const numbers = [1, 2, 3, 4];",
+        "description": "An array with numbers 1 through 4.",
+        "tags": ["data structure", "array", "list"],
+        "difficulty": "Easy",
+        "useCase": "Used when you need an ordered collection of items."
+      },
+      {
+        "name": "Object",
+        "code": "const person = { name: 'John', age: 30 };",
+        "description": "An object to represent a person with name and age.",
+        "tags": ["data structure", "object", "key-value pair"],
+        "difficulty": "Medium",
+        "useCase": "Used to store related data in key-value pairs."
+      }
+    ],
+    "errorHandling": [
+      {
+        "name": "Try-Catch Block",
+        "code": "try { throw new Error('Oops!'); } catch (error) { console.log(error.message); }",
+        "description": "A try-catch block for error handling.",
+        "tags": ["error", "try-catch"],
+        "difficulty": "Medium",
+        "useCase": "Used when you want to handle exceptions or errors in your code."
+      }
+    ]
+  }
+  

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "math": "^0.0.3",
+    "readline-sync": "^1.4.10",
+    "slice": "^0.0.5",
+    "trim": "^1.0.1"
+  }
+}
