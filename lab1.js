@@ -7,7 +7,7 @@ function fahrenheitToCelsius(fahrenheit) {
     return (fahrenheit - 32) * 5/9;
 }
 
-// Main program (Virulence + Parasitic Link)
+// Main program 
 var listOfTemperatures = ["13c", "23c", "12c", "57f", "69f", "30c"];
 
 var convertedTemperatures = listOfTemperatures.map(temp => {
